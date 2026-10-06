@@ -1,121 +1,1902 @@
 ﻿<!doctype html>
 <html lang="pt-BR">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#07172b">
-<meta name="description" content="Personalização e produção própria GBA Tapeçaria. Tapetes personalizados, comunicação visual e peças feitas para chamar atenção.">
-<title>GBA Tapeçaria — Feito para ser reconhecido</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
-<style>
-:root{--gba-navy:#07172b;--gba-deep:#091d35;--gba-mid:#102b4a;--gba-blue:#1768c4;--gba-blue-light:#65aaf5;--gba-white:#fff;--gba-paper:#f2f5f7;--gba-gray:#aab6c4;--gba-text:#172538;--gba-line:#d8e0e8;--transition-fast:180ms ease;--transition-normal:420ms cubic-bezier(.2,.7,.2,1);--transition-slow:760ms cubic-bezier(.2,.7,.2,1);--page:1200px;--gutter:clamp(22px,5vw,76px)}
-*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:80px}body{margin:0;font-family:'DM Sans',sans-serif;color:var(--gba-text);background:var(--gba-paper);-webkit-font-smoothing:antialiased}a{color:inherit;text-decoration:none}button{font:inherit}.wrap{width:min(var(--page),calc(100% - var(--gutter)*2));margin-inline:auto}.eyebrow{display:flex;align-items:center;gap:10px;text-transform:uppercase;letter-spacing:.17em;font-size:10px;font-weight:700;color:var(--gba-blue-light)}.eyebrow:before{content:'';width:23px;height:1px;background:currentColor}.section{padding:clamp(76px,9vw,124px) 0}.section-head{max-width:650px;margin-bottom:42px}.section-head h2{font:600 clamp(34px,4.5vw,56px)/1.02 'Space Grotesk',sans-serif;letter-spacing:-.055em;margin:16px 0;color:var(--gba-navy)}.section-head p{max-width:560px;margin:0;color:#627183;font-size:15px;line-height:1.8}.btn{min-height:52px;padding:0 22px;display:inline-flex;align-items:center;justify-content:center;gap:14px;text-transform:uppercase;letter-spacing:.07em;font-size:11px;font-weight:700;transition:transform var(--transition-fast),background var(--transition-fast),color var(--transition-fast),border var(--transition-fast);border:1px solid transparent}.btn:hover{transform:translateY(-2px)}.btn-blue{background:var(--gba-blue);color:white}.btn-blue:hover{background:#287bd2}.btn-ghost{border-color:#ffffff70;color:white;background:#07172b36}.btn-ghost:hover{border-color:white;background:#ffffff12}.btn-dark{background:var(--gba-navy);color:white}.btn .arrow{font-size:17px;transition:transform var(--transition-fast)}.btn:hover .arrow{transform:translate(3px,-2px)}
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#07172b">
+        <meta name="description" content="Personalização e produção própria GBA Tapeçaria. Tapetes personalizados, comunicação visual e peças feitas para chamar atenção.">
+        <title>
+            GBA Tapeçaria — Feito para ser reconhecido
+        </title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+        <style>
+:root {
+    --gba-navy:#07172b;
+    --gba-deep:#091d35;
+    --gba-mid:#102b4a;
+    --gba-blue:#1768c4;
+    --gba-blue-light:#65aaf5;
+    --gba-white:#fff;
+    --gba-paper:#f2f5f7;
+    --gba-gray:#aab6c4;
+    --gba-text:#172538;
+    --gba-line:#d8e0e8;
+    --transition-fast:180ms ease;
+    --transition-normal:420ms cubic-bezier(.2,.7,.2,1);
+    --transition-slow:760ms cubic-bezier(.2,.7,.2,1);
+    --page:1200px;
+    --gutter:clamp(22px,5vw,76px)
+}
+* {
+    box-sizing:border-box
+}
+html {
+    scroll-behavior:smooth;
+    scroll-padding-top:80px
+}
+body {
+    margin:0;
+    font-family:'DM Sans',sans-serif;
+    color:var(--gba-text);
+    background:var(--gba-paper);
+    -webkit-font-smoothing:antialiased
+}
+a {
+    color:inherit;
+    text-decoration:none
+}
+button {
+    font:inherit
+}
+.wrap {
+    width:min(var(--page),calc(100% - var(--gutter)*2));
+    margin-inline:auto
+}
+.eyebrow {
+    display:flex;
+    align-items:center;
+    gap:10px;
+    text-transform:uppercase;
+    letter-spacing:.17em;
+    font-size:10px;
+    font-weight:700;
+    color:var(--gba-blue-light)
+}
+.eyebrow:before {
+    content:'';
+    width:23px;
+    height:1px;
+    background:currentColor
+}
+.section {
+    padding:clamp(76px,9vw,124px) 0
+}
+.section-head {
+    max-width:650px;
+    margin-bottom:42px
+}
+.section-head h2 {
+    font:600 clamp(34px,4.5vw,56px)/1.02 'Space Grotesk',sans-serif;
+    letter-spacing:-.055em;
+    margin:16px 0;
+    color:var(--gba-navy)
+}
+.section-head p {
+    max-width:560px;
+    margin:0;
+    color:#627183;
+    font-size:15px;
+    line-height:1.8
+}
+.btn {
+    min-height:52px;
+    padding:0 22px;
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    gap:14px;
+    text-transform:uppercase;
+    letter-spacing:.07em;
+    font-size:11px;
+    font-weight:700;
+    transition:transform var(--transition-fast),background var(--transition-fast),color var(--transition-fast),border var(--transition-fast);
+    border:1px solid transparent
+}
+.btn:hover {
+    transform:translateY(-2px)
+}
+.btn-blue {
+    background:var(--gba-blue);
+    color:white
+}
+.btn-blue:hover {
+    background:#287bd2
+}
+.btn-ghost {
+    border-color:#ffffff70;
+    color:white;
+    background:#07172b36
+}
+.btn-ghost:hover {
+    border-color:white;
+    background:#ffffff12
+}
+.btn-dark {
+    background:var(--gba-navy);
+    color:white
+}
+.btn .arrow {
+    font-size:17px;
+    transition:transform var(--transition-fast)
+}
+.btn:hover .arrow {
+    transform:translate(3px,-2px)
+}
 /* Header */
-.topline{height:33px;background:#041020;color:#a8b6c8;font-size:10px;letter-spacing:.05em}.topline .wrap{height:100%;display:flex;justify-content:space-between;align-items:center}.topline a:hover{color:white}.topline .right{display:flex;gap:22px}header{position:sticky;z-index:30;top:0;background:#08182bf2;border-bottom:1px solid #ffffff13;backdrop-filter:blur(14px)}.nav{height:72px;display:flex;align-items:center;justify-content:space-between}.brand{display:flex;align-items:center;gap:10px;color:white}.brand img{width:42px;height:42px;object-fit:contain}.brand img:not([hidden])~.brand-monogram{display:none}.brand-monogram{width:40px;height:40px;border:1px solid #ffffff89;color:white;display:grid;place-items:center;font:700 14px 'Space Grotesk',sans-serif;letter-spacing:-.1em}.brand-word{font:700 16px 'Space Grotesk',sans-serif;letter-spacing:.04em}.brand-word small{display:block;font:600 8px 'DM Sans',sans-serif;letter-spacing:.28em;color:#a7bfdc;margin-top:3px}.nav-links{display:flex;align-items:center;gap:30px;color:#d1dce9;font-size:11px;font-weight:600}.nav-links a{transition:color var(--transition-fast)}.nav-links a:hover{color:var(--gba-blue-light)}.nav .btn{min-height:40px;padding:0 17px;font-size:10px}.menu-toggle{display:none;background:none;border:0;color:white;font-size:25px}
+.topline {
+    height:33px;
+    background:#041020;
+    color:#a8b6c8;
+    font-size:10px;
+    letter-spacing:.05em
+}
+.topline .wrap {
+    height:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center
+}
+.topline a:hover {
+    color:white
+}
+.topline .right {
+    display:flex;
+    gap:22px
+}
+header {
+    position:sticky;
+    z-index:30;
+    top:0;
+    background:#08182bf2;
+    border-bottom:1px solid #ffffff13;
+    backdrop-filter:blur(14px)
+}
+.nav {
+    height:72px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between
+}
+.brand {
+    display:flex;
+    align-items:center;
+    gap:10px;
+    color:white
+}
+.brand img {
+    width:42px;
+    height:42px;
+    object-fit:contain
+}
+.brand img:not([hidden])~.brand-monogram {
+    display:none
+}
+.brand-monogram {
+    width:40px;
+    height:40px;
+    border:1px solid #ffffff89;
+    color:white;
+    display:grid;
+    place-items:center;
+    font:700 14px 'Space Grotesk',sans-serif;
+    letter-spacing:-.1em
+}
+.brand-word {
+    font:700 16px 'Space Grotesk',sans-serif;
+    letter-spacing:.04em
+}
+.brand-word small {
+    display:block;
+    font:600 8px 'DM Sans',sans-serif;
+    letter-spacing:.28em;
+    color:#a7bfdc;
+    margin-top:3px
+}
+.nav-links {
+    display:flex;
+    align-items:center;
+    gap:30px;
+    color:#d1dce9;
+    font-size:11px;
+    font-weight:600
+}
+.nav-links a {
+    transition:color var(--transition-fast)
+}
+.nav-links a:hover {
+    color:var(--gba-blue-light)
+}
+.nav .btn {
+    min-height:40px;
+    padding:0 17px;
+    font-size:10px
+}
+.menu-toggle {
+    display:none;
+    background:none;
+    border:0;
+    color:white;
+    font-size:25px
+}
 /* Hero media paths: replace these local files when your own production assets are ready. */
-.hero{min-height:min(790px,calc(100svh - 105px));position:relative;isolation:isolate;display:flex;align-items:center;overflow:hidden;background:#061326 url('assets/images/gba-hero-poster.jpg') center 48%/cover no-repeat;color:white}.hero:before{content:'';position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,#061326f2 0%,#061326d9 40%,#06132675 75%,#06132685 100%),linear-gradient(0deg,#061326ab,transparent 55%)}.hero:after{content:'';position:absolute;inset:0;z-index:-1;pointer-events:none;background:radial-gradient(ellipse at 76% 50%,#1c70c21c,transparent 35%)}.hero-video{position:absolute;z-index:-2;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity 1.1s ease}.hero.video-loaded .hero-video{opacity:1}.hero-inner{width:100%;padding:95px 0 105px}.hero-content{max-width:690px}.hero-logo{width:76px;height:76px;object-fit:contain;margin-bottom:28px;animation:rise .75s .05s both}.hero-kicker{animation:rise .7s .18s both}.hero h1{font:600 clamp(47px,7vw,86px)/.96 'Space Grotesk',sans-serif;letter-spacing:-.065em;text-transform:uppercase;max-width:720px;margin:18px 0 22px;animation:rise .75s .28s both}.hero h1 span{color:#70b2ff}.hero-copy{max-width:530px;color:#d0d9e4;font-size:16px;line-height:1.75;margin:0 0 28px;animation:rise .75s .4s both}.hero-actions{display:flex;flex-wrap:wrap;gap:11px;animation:rise .75s .51s both}.scroll-cue{position:absolute;bottom:30px;left:50%;transform:translateX(-50%);display:flex;align-items:center;gap:12px;color:#c2cedc;text-transform:uppercase;letter-spacing:.16em;font-size:9px;animation:rise .7s .7s both}.scroll-cue i{height:35px;width:1px;background:#ffffff6e;position:relative;overflow:hidden}.scroll-cue i:after{content:'';position:absolute;inset:-40% 0 60%;background:var(--gba-blue-light);animation:scrollline 1.8s infinite}.hero-side{position:absolute;right:var(--gutter);bottom:38px;color:#ffffff78;font-size:9px;letter-spacing:.17em;writing-mode:vertical-rl}.hero-side:after{content:'';height:35px;width:1px;background:#ffffff50;margin:12px auto 0}
-@keyframes rise{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:translateY(0)}}@keyframes scrollline{to{transform:translateY(55px)}}
+.hero {
+    min-height:min(790px,calc(100svh - 105px));
+    position:relative;
+    isolation:isolate;
+    display:flex;
+    align-items:center;
+    overflow:hidden;
+    background:#061326 url('img/Stapete.jpeg') center 48%/cover no-repeat;
+    color:white
+}
+.hero:before {
+    content:'';
+    position:absolute;
+    inset:0;
+    z-index:-1;
+    background:linear-gradient(90deg,#061326f2 0%,#061326d9 40%,#06132675 75%,#06132685 100%),linear-gradient(0deg,#061326ab,transparent 55%)
+}
+.hero:after {
+    content:'';
+    position:absolute;
+    inset:0;
+    z-index:-1;
+    pointer-events:none;
+    background:radial-gradient(ellipse at 76% 50%,#1c70c21c,transparent 35%)
+}
+.hero-video {
+    position:absolute;
+    z-index:-2;
+    inset:0;
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    opacity:0;
+    transition:opacity 1.1s ease
+}
+.hero.video-loaded .hero-video {
+    opacity:1
+}
+.hero-inner {
+    width:100%;
+    padding:95px 0 105px
+}
+.hero-content {
+    max-width:690px
+}
+.hero-logo {
+    width:76px;
+    height:76px;
+    object-fit:contain;
+    margin-bottom:28px;
+    animation:rise .75s .05s both
+}
+.hero-kicker {
+    animation:rise .7s .18s both
+}
+.hero h1 {
+    font:600 clamp(47px,7vw,86px)/.96 'Space Grotesk',sans-serif;
+    letter-spacing:-.065em;
+    text-transform:uppercase;
+    max-width:720px;
+    margin:18px 0 22px;
+    animation:rise .75s .28s both
+}
+.hero h1 span {
+    color:#70b2ff
+}
+.hero-copy {
+    max-width:530px;
+    color:#d0d9e4;
+    font-size:16px;
+    line-height:1.75;
+    margin:0 0 28px;
+    animation:rise .75s .4s both
+}
+.hero-actions {
+    display:flex;
+    flex-wrap:wrap;
+    gap:11px;
+    animation:rise .75s .51s both
+}
+.scroll-cue {
+    position:absolute;
+    bottom:30px;
+    left:50%;
+    transform:translateX(-50%);
+    display:flex;
+    align-items:center;
+    gap:12px;
+    color:#c2cedc;
+    text-transform:uppercase;
+    letter-spacing:.16em;
+    font-size:9px;
+    animation:rise .7s .7s both
+}
+.scroll-cue i {
+    height:35px;
+    width:1px;
+    background:#ffffff6e;
+    position:relative;
+    overflow:hidden
+}
+.scroll-cue i:after {
+    content:'';
+    position:absolute;
+    inset:-40% 0 60%;
+    background:var(--gba-blue-light);
+    animation:scrollline 1.8s infinite
+}
+.hero-side {
+    position:absolute;
+    right:var(--gutter);
+    bottom:38px;
+    color:#ffffff78;
+    font-size:9px;
+    letter-spacing:.17em;
+    writing-mode:vertical-rl
+}
+.hero-side:after {
+    content:'';
+    height:35px;
+    width:1px;
+    background:#ffffff50;
+    margin:12px auto 0
+}
+@keyframes rise {
+    from {
+        opacity:0;
+        transform:translateY(18px)
+    }
+    to {
+        opacity:1;
+        transform:translateY(0)
+    }
+}
+@keyframes scrollline {
+    to {
+        transform:translateY(55px)
+    }
+}
 /* GBA story */
-.story{background:var(--gba-deep);color:white;position:relative;overflow:hidden}.story:before{content:'GBA';position:absolute;right:-.03em;bottom:-.26em;font:700 min(42vw,570px)/.8 'Space Grotesk',sans-serif;color:#ffffff04;letter-spacing:-.1em;pointer-events:none}.story-grid{display:grid;grid-template-columns:1fr 1.02fr;gap:clamp(42px,8vw,110px);align-items:center;position:relative}.story-visual{min-height:530px;position:relative}.story-image{position:absolute;inset:0 48px 36px 0;background:#dbe3e9 url('assets/images/gba-producao.jpg') center/cover no-repeat;filter:none}.story-image:after{content:'';position:absolute;inset:0;background:linear-gradient(0deg,#07172b70,transparent 60%)}.story-detail{position:absolute;right:0;bottom:0;width:44%;height:230px;background:#1b3c5b url('assets/images/tapete-02.jpg') center/cover no-repeat;border:8px solid var(--gba-deep)}.story-index{position:absolute;left:20px;bottom:58px;color:white;font:600 12px 'Space Grotesk',sans-serif;letter-spacing:.15em}.story-copy .eyebrow{color:#7db9fa}.story-copy h2{font:600 clamp(36px,4.8vw,58px)/1.02 'Space Grotesk',sans-serif;letter-spacing:-.055em;margin:18px 0 24px}.story-copy>p{max-width:490px;color:#b9c7d7;font-size:15px;line-height:1.85}.story-rule{width:54px;height:2px;background:var(--gba-blue);margin:27px 0}.story-stats{display:flex;gap:36px}.story-stat strong{display:block;font:600 22px 'Space Grotesk',sans-serif}.story-stat span{font-size:10px;color:#98abc0;letter-spacing:.05em}
+.story {
+    background:var(--gba-deep);
+    color:white;
+    position:relative;
+    overflow:hidden
+}
+.story:before {
+    content:'GBA';
+    position:absolute;
+    right:-.03em;
+    bottom:-.26em;
+    font:700 min(42vw,570px)/.8 'Space Grotesk',sans-serif;
+    color:#ffffff04;
+    letter-spacing:-.1em;
+    pointer-events:none
+}
+.story-grid {
+    display:grid;
+    grid-template-columns:1fr 1.02fr;
+    gap:clamp(42px,8vw,110px);
+    align-items:center;
+    position:relative
+}
+.story-visual {
+    min-height:530px;
+    position:relative
+}
+.story-image {
+    position:absolute;
+    inset:0 48px 36px 0;
+    background:#dbe3e9 url('assets/images/gba-producao.jpg') center/cover no-repeat;
+    filter:none
+}
+.story-image:after {
+    content:'';
+    position:absolute;
+    inset:0;
+    background:linear-gradient(0deg,#07172b70,transparent 60%)
+}
+.story-detail {
+    position:absolute;
+    right:0;
+    bottom:0;
+    width:44%;
+    height:230px;
+    background:#1b3c5b url('assets/images/tapete-02.jpg') center/cover no-repeat;
+    border:8px solid var(--gba-deep)
+}
+.story-index {
+    position:absolute;
+    left:20px;
+    bottom:58px;
+    color:white;
+    font:600 12px 'Space Grotesk',sans-serif;
+    letter-spacing:.15em
+}
+.story-copy .eyebrow {
+    color:#7db9fa
+}
+.story-copy h2 {
+    font:600 clamp(36px,4.8vw,58px)/1.02 'Space Grotesk',sans-serif;
+    letter-spacing:-.055em;
+    margin:18px 0 24px
+}
+.story-copy>p {
+    max-width:490px;
+    color:#b9c7d7;
+    font-size:15px;
+    line-height:1.85
+}
+.story-rule {
+    width:54px;
+    height:2px;
+    background:var(--gba-blue);
+    margin:27px 0
+}
+.story-stats {
+    display:flex;
+    gap:36px
+}
+.story-stat strong {
+    display:block;
+    font:600 22px 'Space Grotesk',sans-serif
+}
+.story-stat span {
+    font-size:10px;
+    color:#98abc0;
+    letter-spacing:.05em
+}
 /* Services */
-.services{background:#102a47;color:white}.services .section-head h2{color:white}.services .section-head p{color:#aebed0}.services .eyebrow{color:#76b5fa}.service-grid{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid #ffffff2b;border-left:1px solid #ffffff2b}.service-card{min-height:245px;padding:26px 27px;border-right:1px solid #ffffff2b;border-bottom:1px solid #ffffff2b;position:relative;overflow:hidden;transition:transform var(--transition-normal),background var(--transition-normal),border-color var(--transition-normal)}.service-card:before{content:'';position:absolute;left:0;top:0;height:2px;width:0;background:var(--gba-blue-light);transition:width var(--transition-normal)}.service-card:hover{transform:translateY(-4px);background:#163655}.service-card:hover:before{width:100%}.service-top{display:flex;align-items:center;justify-content:space-between;color:#83bafa}.service-symbol{font-size:23px}.card-arrow{font-size:19px;transition:transform var(--transition-fast)}.service-card:hover .card-arrow{transform:translate(3px,-3px)}.service-card h3{font:600 19px 'Space Grotesk',sans-serif;margin:43px 0 9px;transition:transform var(--transition-fast)}.service-card:hover h3{transform:translateX(3px)}.service-card p{max-width:280px;margin:0;color:#aebed0;font-size:12px;line-height:1.7}
+.services {
+    background:#102a47;
+    color:white
+}
+.services .section-head h2 {
+    color:white
+}
+.services .section-head p {
+    color:#aebed0
+}
+.services .eyebrow {
+    color:#76b5fa
+}
+.service-grid {
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    border-top:1px solid #ffffff2b;
+    border-left:1px solid #ffffff2b
+}
+.service-card {
+    min-height:245px;
+    padding:26px 27px;
+    border-right:1px solid #ffffff2b;
+    border-bottom:1px solid #ffffff2b;
+    position:relative;
+    overflow:hidden;
+    transition:transform var(--transition-normal),background var(--transition-normal),border-color var(--transition-normal)
+}
+.service-card:before {
+    content:'';
+    position:absolute;
+    left:0;
+    top:0;
+    height:2px;
+    width:0;
+    background:var(--gba-blue-light);
+    transition:width var(--transition-normal)
+}
+.service-card:hover {
+    transform:translateY(-4px);
+    background:#163655
+}
+.service-card:hover:before {
+    width:100%
+}
+.service-top {
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    color:#83bafa
+}
+.service-symbol {
+    font-size:23px
+}
+.card-arrow {
+    font-size:19px;
+    transition:transform var(--transition-fast)
+}
+.service-card:hover .card-arrow {
+    transform:translate(3px,-3px)
+}
+.service-card h3 {
+    font:600 19px 'Space Grotesk',sans-serif;
+    margin:43px 0 9px;
+    transition:transform var(--transition-fast)
+}
+.service-card:hover h3 {
+    transform:translateX(3px)
+}
+.service-card p {
+    max-width:280px;
+    margin:0;
+    color:#aebed0;
+    font-size:12px;
+    line-height:1.7
+}
 /* Made-to-order process */
-.process{background:#0a1d34;color:white;overflow:hidden}.process .section-head h2{color:white}.process .section-head p{color:#aab9ca}.process .eyebrow{color:#77b6fa}.process-track{position:relative;margin-top:65px}.track-line,.track-progress{position:absolute;top:15px;left:8%;height:1px;width:84%;background:#ffffff30}.track-progress{width:0;background:var(--gba-blue-light);transition:width 1.5s cubic-bezier(.2,.7,.2,1)}.process-track.is-visible .track-progress{width:84%}.steps{display:grid;grid-template-columns:repeat(5,1fr);position:relative}.process-step{padding:0 15px 0 0;opacity:0;transform:translateY(15px);transition:opacity .5s ease,transform .5s ease}.process-track.is-visible .process-step{opacity:1;transform:none}.process-track.is-visible .process-step:nth-child(2){transition-delay:.12s}.process-track.is-visible .process-step:nth-child(3){transition-delay:.24s}.process-track.is-visible .process-step:nth-child(4){transition-delay:.36s}.process-track.is-visible .process-step:nth-child(5){transition-delay:.48s}.step-dot{display:grid;place-items:center;width:31px;height:31px;border:1px solid #6796c5;background:#0a1d34;color:#9ccaff;font:600 10px 'Space Grotesk',sans-serif;margin-bottom:23px;position:relative;z-index:1;transition:background .35s,color .35s}.process-track.is-visible .step-dot{background:var(--gba-blue);color:white}.process-step h3{margin:0 0 7px;font:600 13px 'Space Grotesk',sans-serif;letter-spacing:.12em}.process-step p{font-size:11px;color:#93a7bd;line-height:1.65;max-width:165px;margin:0}
+.process {
+    background:#0a1d34;
+    color:white;
+    overflow:hidden
+}
+.process .section-head h2 {
+    color:white
+}
+.process .section-head p {
+    color:#aab9ca
+}
+.process .eyebrow {
+    color:#77b6fa
+}
+.process-track {
+    position:relative;
+    margin-top:65px
+}
+.track-line,.track-progress {
+    position:absolute;
+    top:15px;
+    left:8%;
+    height:1px;
+    width:84%;
+    background:#ffffff30
+}
+.track-progress {
+    width:0;
+    background:var(--gba-blue-light);
+    transition:width 1.5s cubic-bezier(.2,.7,.2,1)
+}
+.process-track.is-visible .track-progress {
+    width:84%
+}
+.steps {
+    display:grid;
+    grid-template-columns:repeat(5,1fr);
+    position:relative
+}
+.process-step {
+    padding:0 15px 0 0;
+    opacity:0;
+    transform:translateY(15px);
+    transition:opacity .5s ease,transform .5s ease
+}
+.process-track.is-visible .process-step {
+    opacity:1;
+    transform:none
+}
+.process-track.is-visible .process-step:nth-child(2) {
+    transition-delay:.12s
+}
+.process-track.is-visible .process-step:nth-child(3) {
+    transition-delay:.24s
+}
+.process-track.is-visible .process-step:nth-child(4) {
+    transition-delay:.36s
+}
+.process-track.is-visible .process-step:nth-child(5) {
+    transition-delay:.48s
+}
+.step-dot {
+    display:grid;
+    place-items:center;
+    width:31px;
+    height:31px;
+    border:1px solid #6796c5;
+    background:#0a1d34;
+    color:#9ccaff;
+    font:600 10px 'Space Grotesk',sans-serif;
+    margin-bottom:23px;
+    position:relative;
+    z-index:1;
+    transition:background .35s,color .35s
+}
+.process-track.is-visible .step-dot {
+    background:var(--gba-blue);
+    color:white
+}
+.process-step h3 {
+    margin:0 0 7px;
+    font:600 13px 'Space Grotesk',sans-serif;
+    letter-spacing:.12em
+}
+.process-step p {
+    font-size:11px;
+    color:#93a7bd;
+    line-height:1.65;
+    max-width:165px;
+    margin:0
+}
 /* Portfolio: editorial collage */
-.portfolio{background:var(--gba-paper)}.portfolio .section-head{display:flex;align-items:end;justify-content:space-between;gap:24px;max-width:none}.portfolio .section-head>div{max-width:640px}.portfolio .eyebrow{color:var(--gba-blue)}.portfolio .section-head h2{color:var(--gba-navy)}.portfolio-grid{display:grid;grid-template-columns:1.1fr .9fr 1fr;grid-template-rows:250px 250px;gap:13px}.work{position:relative;overflow:hidden;background-color:#d8e0e7;background-position:center;background-size:cover;isolation:isolate}.work:before{content:'';position:absolute;inset:0;background:linear-gradient(0deg,#07172bd9,transparent 65%);opacity:.65;transition:opacity var(--transition-normal)}.work:after{content:'↗';position:absolute;right:18px;top:18px;color:white;font-size:19px;opacity:0;transform:translate(-4px,4px);transition:all var(--transition-normal)}.work:hover:before{opacity:.88}.work:hover:after{opacity:1;transform:none}.work-bg{position:absolute;inset:0;background-size:cover;background-position:center;transition:transform .7s cubic-bezier(.2,.7,.2,1)}.work:hover .work-bg{transform:scale(1.035)}.work-1{grid-row:span 2}.work-2{grid-column:2;grid-row:span 2}.work-3{grid-column:3;grid-row:1}.work-4{grid-column:3;grid-row:2}.work-bg-1{background-image:url('assets/images/tapete-01.jpg')}.work-bg-2{background-image:url('assets/images/wind-banner.jpg')}.work-bg-3{background-image:url('assets/images/impressao-3d.jpg')}.work-bg-4{background-image:url('assets/images/fachada.jpg')}.work-caption{position:absolute;left:21px;bottom:20px;color:white}.work-caption small{font-size:9px;text-transform:uppercase;letter-spacing:.16em;color:#d6e7f9}.work-caption h3{font:600 20px 'Space Grotesk',sans-serif;margin:8px 0 0}.work-3 .work-caption h3,.work-4 .work-caption h3{font-size:16px}
+.portfolio {
+    background:var(--gba-paper)
+}
+.portfolio .section-head {
+    display:flex;
+    align-items:end;
+    justify-content:space-between;
+    gap:24px;
+    max-width:none
+}
+.portfolio .section-head>div {
+    max-width:640px
+}
+.portfolio .eyebrow {
+    color:var(--gba-blue)
+}
+.portfolio .section-head h2 {
+    color:var(--gba-navy)
+}
+.portfolio-grid {
+    display:grid;
+    grid-template-columns:1.1fr .9fr 1fr;
+    grid-template-rows:250px 250px;
+    gap:13px
+}
+.work {
+    position:relative;
+    overflow:hidden;
+    background-color:#d8e0e7;
+    background-position:center;
+    background-size:cover;
+    isolation:isolate
+}
+.work:before {
+    content:'';
+    position:absolute;
+    inset:0;
+    background:linear-gradient(0deg,#07172bd9,transparent 65%);
+    opacity:.65;
+    transition:opacity var(--transition-normal)
+}
+.work:after {
+    content:'↗';
+    position:absolute;
+    right:18px;
+    top:18px;
+    color:white;
+    font-size:19px;
+    opacity:0;
+    transform:translate(-4px,4px);
+    transition:all var(--transition-normal)
+}
+.work:hover:before {
+    opacity:.88
+}
+.work:hover:after {
+    opacity:1;
+    transform:none
+}
+.work-bg {
+    position:absolute;
+    inset:0;
+    background-size:cover;
+    background-position:center;
+    transition:transform .7s cubic-bezier(.2,.7,.2,1)
+}
+.work:hover .work-bg {
+    transform:scale(1.035)
+}
+.work-1 {
+    grid-row:span 2
+}
+.work-2 {
+    grid-column:2;
+    grid-row:span 2
+}
+.work-3 {
+    grid-column:3;
+    grid-row:1
+}
+.work-4 {
+    grid-column:3;
+    grid-row:2
+}
+.work-bg-1 {
+    background-image:url('assets/images/tapete-01.jpg')
+}
+.work-bg-2 {
+    background-image:url('assets/images/wind-banner.jpg')
+}
+.work-bg-3 {
+    background-image:url('assets/images/impressao-3d.jpg')
+}
+.work-bg-4 {
+    background-image:url('assets/images/fachada.jpg')
+}
+.work-caption {
+    position:absolute;
+    left:21px;
+    bottom:20px;
+    color:white
+}
+.work-caption small {
+    font-size:9px;
+    text-transform:uppercase;
+    letter-spacing:.16em;
+    color:#d6e7f9
+}
+.work-caption h3 {
+    font:600 20px 'Space Grotesk',sans-serif;
+    margin:8px 0 0
+}
+.work-3 .work-caption h3,.work-4 .work-caption h3 {
+    font-size:16px
+}
 /* Contact conversion and social */
-.cta{position:relative;overflow:hidden;background:var(--gba-blue);color:white;padding:74px 0}.cta:before,.cta:after{content:'';position:absolute;width:510px;height:510px;border:1px solid #ffffff20;border-radius:50%;right:-80px;top:-290px;pointer-events:none}.cta:after{width:650px;height:650px;right:-150px;top:-360px}.cta-inner{position:relative;display:flex;align-items:center;justify-content:space-between;gap:25px}.cta h2{max-width:660px;margin:0 0 11px;font:600 clamp(34px,5vw,57px)/.98 'Space Grotesk',sans-serif;letter-spacing:-.05em;text-transform:uppercase}.cta p{margin:0;color:#d8eaff;font-size:14px}.cta .btn{background:white;color:var(--gba-navy);flex:none}.instagram{background:#e7edf2;padding:66px 0}.instagram-inner{display:flex;align-items:center;justify-content:space-between;gap:25px}.instagram .eyebrow{color:var(--gba-blue)}.instagram h2{font:600 clamp(25px,3.5vw,37px) 'Space Grotesk',sans-serif;color:var(--gba-navy);margin:11px 0 7px;letter-spacing:-.04em}.instagram p{font-size:13px;color:#68788a;margin:0}.ig-links{display:flex;gap:24px;flex-wrap:wrap}.ig-link{padding-bottom:7px;border-bottom:1px solid #9fb1c3;color:var(--gba-navy);font-size:12px;font-weight:700;transition:border var(--transition-fast),color var(--transition-fast)}.ig-link:hover{border-color:var(--gba-blue);color:var(--gba-blue)}
+.cta {
+    position:relative;
+    overflow:hidden;
+    background:var(--gba-blue);
+    color:white;
+    padding:74px 0
+}
+.cta:before,.cta:after {
+    content:'';
+    position:absolute;
+    width:510px;
+    height:510px;
+    border:1px solid #ffffff20;
+    border-radius:50%;
+    right:-80px;
+    top:-290px;
+    pointer-events:none
+}
+.cta:after {
+    width:650px;
+    height:650px;
+    right:-150px;
+    top:-360px
+}
+.cta-inner {
+    position:relative;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:25px
+}
+.cta h2 {
+    max-width:660px;
+    margin:0 0 11px;
+    font:600 clamp(34px,5vw,57px)/.98 'Space Grotesk',sans-serif;
+    letter-spacing:-.05em;
+    text-transform:uppercase
+}
+.cta p {
+    margin:0;
+    color:#d8eaff;
+    font-size:14px
+}
+.cta .btn {
+    background:white;
+    color:var(--gba-navy);
+    flex:none
+}
+.instagram {
+    background:#e7edf2;
+    padding:66px 0
+}
+.instagram-inner {
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:25px
+}
+.instagram .eyebrow {
+    color:var(--gba-blue)
+}
+.instagram h2 {
+    font:600 clamp(25px,3.5vw,37px) 'Space Grotesk',sans-serif;
+    color:var(--gba-navy);
+    margin:11px 0 7px;
+    letter-spacing:-.04em
+}
+.instagram p {
+    font-size:13px;
+    color:#68788a;
+    margin:0
+}
+.ig-links {
+    display:flex;
+    gap:24px;
+    flex-wrap:wrap
+}
+.ig-link {
+    padding-bottom:7px;
+    border-bottom:1px solid #9fb1c3;
+    color:var(--gba-navy);
+    font-size:12px;
+    font-weight:700;
+    transition:border var(--transition-fast),color var(--transition-fast)
+}
+.ig-link:hover {
+    border-color:var(--gba-blue);
+    color:var(--gba-blue)
+}
 /* Footer */
-footer{background:#041020;color:#d9e3ef;padding:57px 0 20px}.footer-main{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:34px;padding-bottom:43px}.footer-brand{margin-bottom:14px}.footer-description{max-width:280px;color:#8fa1b6;font-size:11px;line-height:1.8;margin:0}.footer-col h3{margin:4px 0 16px;font-size:9px;letter-spacing:.17em;text-transform:uppercase;color:#8198b1}.footer-col a{display:block;width:max-content;max-width:100%;margin:10px 0;color:#d3deea;font-size:11px;transition:color var(--transition-fast)}.footer-col a:hover{color:#76b6ff}.footer-bottom{border-top:1px solid #ffffff18;padding-top:18px;display:flex;justify-content:space-between;gap:14px;color:#71859c;font-size:9px}.mobile-bar{display:none}
+footer {
+    background:#041020;
+    color:#d9e3ef;
+    padding:57px 0 20px
+}
+.footer-main {
+    display:grid;
+    grid-template-columns:1.4fr 1fr 1fr 1fr;
+    gap:34px;
+    padding-bottom:43px
+}
+.footer-brand {
+    margin-bottom:14px
+}
+.footer-description {
+    max-width:280px;
+    color:#8fa1b6;
+    font-size:11px;
+    line-height:1.8;
+    margin:0
+}
+.footer-col h3 {
+    margin:4px 0 16px;
+    font-size:9px;
+    letter-spacing:.17em;
+    text-transform:uppercase;
+    color:#8198b1
+}
+.footer-col a {
+    display:block;
+    width:max-content;
+    max-width:100%;
+    margin:10px 0;
+    color:#d3deea;
+    font-size:11px;
+    transition:color var(--transition-fast)
+}
+.footer-col a:hover {
+    color:#76b6ff
+}
+.footer-bottom {
+    border-top:1px solid #ffffff18;
+    padding-top:18px;
+    display:flex;
+    justify-content:space-between;
+    gap:14px;
+    color:#71859c;
+    font-size:9px
+}
+.mobile-bar {
+    display:none
+}
 /* Reveal utilities */
-.reveal,.reveal-left,.reveal-right,.reveal-scale{opacity:0;transition:opacity var(--transition-slow),transform var(--transition-slow)}.reveal{transform:translateY(22px)}.reveal-left{transform:translateX(-24px)}.reveal-right{transform:translateX(24px)}.reveal-scale{transform:scale(.985)}.revealed{opacity:1;transform:none}
-@media(max-width:900px){.nav-links{gap:17px}.story-grid{gap:45px}.story-visual{min-height:440px}.service-card{min-height:220px;padding:23px}.portfolio-grid{grid-template-rows:220px 220px}.footer-main{grid-template-columns:1.2fr 1fr 1fr}.footer-main>div:first-child{grid-column:span 3}}
-@media(max-width:650px){:root{--gutter:21px}html{scroll-padding-top:66px}.topline .right{display:none}.topline .wrap{justify-content:center}.nav{height:64px}.brand-monogram{width:36px;height:36px}.nav .btn{display:none}.menu-toggle{display:block}.nav-links{display:none;position:absolute;left:0;right:0;top:64px;padding:10px var(--gutter) 18px;background:#08182b;flex-direction:column;align-items:stretch;gap:0;border-top:1px solid #ffffff19}.nav-links.open{display:flex}.nav-links a{padding:15px 0;border-bottom:1px solid #ffffff16}.hero{min-height:calc(100svh - 97px);background-position:58% center}.hero:before{background:linear-gradient(90deg,#061326ef,#061326b8 78%),linear-gradient(0deg,#061326b8,transparent)}.hero-inner{padding:74px 0 90px}.hero-content{max-width:570px}.hero-logo{width:61px;height:61px;margin-bottom:24px}.hero h1{font-size:clamp(44px,12vw,66px);margin:16px 0}.hero-copy{font-size:14px}.hero-actions{gap:9px}.hero-actions .btn{min-height:49px;padding:0 15px;font-size:9px}.scroll-cue{left:var(--gutter);transform:none;bottom:24px}.hero-side{display:none}.section{padding:76px 0}.section-head{margin-bottom:32px}.section-head h2{font-size:38px}.section-head p{font-size:14px}.story-grid{grid-template-columns:1fr;gap:34px}.story-visual{min-height:350px;order:2}.story-image{inset:0 36px 26px 0}.story-detail{height:155px;width:47%;border-width:6px}.story-index{bottom:44px;left:14px}.story-copy{order:1}.story-copy h2{font-size:40px}.story-copy>p{font-size:14px}.story-stats{gap:24px}.service-grid{grid-template-columns:1fr 1fr}.service-card{min-height:200px;padding:18px 15px}.service-card h3{font-size:16px;margin:33px 0 8px}.service-card p{font-size:11px}.process-track{margin-top:44px}.track-line,.track-progress{left:15px;top:0;width:1px;height:calc(100% - 10px)}.track-progress{height:0;width:1px;transition:height 1.4s ease}.process-track.is-visible .track-progress{height:calc(100% - 10px);width:1px}.steps{grid-template-columns:1fr;gap:22px}.process-step{display:grid;grid-template-columns:32px 1fr;column-gap:14px;padding:0;opacity:0;transform:translateY(10px)}.step-dot{grid-row:span 2;margin:0;width:31px;height:31px}.process-step h3{align-self:end;margin:1px 0 5px}.process-step p{max-width:300px}.portfolio .section-head{display:block}.portfolio .section-head>.btn{margin-top:20px}.portfolio-grid{grid-template-columns:1fr 1fr;grid-template-rows:240px 180px 180px;gap:8px}.work-1{grid-column:span 2;grid-row:1}.work-2{grid-column:1;grid-row:2 / span 2}.work-3{grid-column:2;grid-row:2}.work-4{grid-column:2;grid-row:3}.work-caption{left:13px;bottom:14px}.work-caption h3{font-size:16px}.work-3 .work-caption h3,.work-4 .work-caption h3{font-size:14px}.cta{padding:57px 0}.cta-inner{align-items:flex-start;flex-direction:column}.cta h2{font-size:42px}.cta p{font-size:13px}.instagram{padding:52px 0}.instagram-inner{align-items:flex-start;flex-direction:column}.ig-links{gap:16px}.footer-main{grid-template-columns:1fr 1fr;gap:28px 18px}.footer-main>div:first-child{grid-column:span 2}.footer-bottom{flex-direction:column}.mobile-bar{display:flex;position:fixed;z-index:40;bottom:0;left:0;right:0;padding:9px 14px calc(9px + env(safe-area-inset-bottom));background:#07172bf2;backdrop-filter:blur(12px);border-top:1px solid #ffffff25}.mobile-bar .btn{width:100%;min-height:47px}body{padding-bottom:66px}}
-@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation-duration:.01ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important;transition-duration:.01ms!important}.reveal,.reveal-left,.reveal-right,.reveal-scale{opacity:1;transform:none}.process-step{opacity:1;transform:none}}
+.reveal,.reveal-left,.reveal-right,.reveal-scale {
+    opacity:0;
+    transition:opacity var(--transition-slow),transform var(--transition-slow)
+}
+.reveal {
+    transform:translateY(22px)
+}
+.reveal-left {
+    transform:translateX(-24px)
+}
+.reveal-right {
+    transform:translateX(24px)
+}
+.reveal-scale {
+    transform:scale(.985)
+}
+.revealed {
+    opacity:1;
+    transform:none
+}
+@media(max-width:900px) {
+    .nav-links {
+        gap:17px
+    }
+    .story-grid {
+        gap:45px
+    }
+    .story-visual {
+        min-height:440px
+    }
+    .service-card {
+        min-height:220px;
+        padding:23px
+    }
+    .portfolio-grid {
+        grid-template-rows:220px 220px
+    }
+    .footer-main {
+        grid-template-columns:1.2fr 1fr 1fr
+    }
+    .footer-main>div:first-child {
+        grid-column:span 3
+    }
+}
+@media(max-width:650px) {
+    :root {
+        --gutter:21px
+    }
+    html {
+        scroll-padding-top:66px
+    }
+    .topline .right {
+        display:none
+    }
+    .topline .wrap {
+        justify-content:center
+    }
+    .nav {
+        height:64px
+    }
+    .brand-monogram {
+        width:36px;
+        height:36px
+    }
+    .nav .btn {
+        display:none
+    }
+    .menu-toggle {
+        display:block
+    }
+    .nav-links {
+        display:none;
+        position:absolute;
+        left:0;
+        right:0;
+        top:64px;
+        padding:10px var(--gutter) 18px;
+        background:#08182b;
+        flex-direction:column;
+        align-items:stretch;
+        gap:0;
+        border-top:1px solid #ffffff19
+    }
+    .nav-links.open {
+        display:flex
+    }
+    .nav-links a {
+        padding:15px 0;
+        border-bottom:1px solid #ffffff16
+    }
+    .hero {
+        min-height:calc(100svh - 97px);
+        background-position:58% center
+    }
+    .hero:before {
+        background:linear-gradient(90deg,#061326ef,#061326b8 78%),linear-gradient(0deg,#061326b8,transparent)
+    }
+    .hero-inner {
+        padding:74px 0 90px
+    }
+    .hero-content {
+        max-width:570px
+    }
+    .hero-logo {
+        width:61px;
+        height:61px;
+        margin-bottom:24px
+    }
+    .hero h1 {
+        font-size:clamp(44px,12vw,66px);
+        margin:16px 0
+    }
+    .hero-copy {
+        font-size:14px
+    }
+    .hero-actions {
+        gap:9px
+    }
+    .hero-actions .btn {
+        min-height:49px;
+        padding:0 15px;
+        font-size:9px
+    }
+    .scroll-cue {
+        left:var(--gutter);
+        transform:none;
+        bottom:24px
+    }
+    .hero-side {
+        display:none
+    }
+    .section {
+        padding:76px 0
+    }
+    .section-head {
+        margin-bottom:32px
+    }
+    .section-head h2 {
+        font-size:38px
+    }
+    .section-head p {
+        font-size:14px
+    }
+    .story-grid {
+        grid-template-columns:1fr;
+        gap:34px
+    }
+    .story-visual {
+        min-height:350px;
+        order:2
+    }
+    .story-image {
+        inset:0 36px 26px 0
+    }
+    .story-detail {
+        height:155px;
+        width:47%;
+        border-width:6px
+    }
+    .story-index {
+        bottom:44px;
+        left:14px
+    }
+    .story-copy {
+        order:1
+    }
+    .story-copy h2 {
+        font-size:40px
+    }
+    .story-copy>p {
+        font-size:14px
+    }
+    .story-stats {
+        gap:24px
+    }
+    .service-grid {
+        grid-template-columns:1fr 1fr
+    }
+    .service-card {
+        min-height:200px;
+        padding:18px 15px
+    }
+    .service-card h3 {
+        font-size:16px;
+        margin:33px 0 8px
+    }
+    .service-card p {
+        font-size:11px
+    }
+    .process-track {
+        margin-top:44px
+    }
+    .track-line,.track-progress {
+        left:15px;
+        top:0;
+        width:1px;
+        height:calc(100% - 10px)
+    }
+    .track-progress {
+        height:0;
+        width:1px;
+        transition:height 1.4s ease
+    }
+    .process-track.is-visible .track-progress {
+        height:calc(100% - 10px);
+        width:1px
+    }
+    .steps {
+        grid-template-columns:1fr;
+        gap:22px
+    }
+    .process-step {
+        display:grid;
+        grid-template-columns:32px 1fr;
+        column-gap:14px;
+        padding:0;
+        opacity:0;
+        transform:translateY(10px)
+    }
+    .step-dot {
+        grid-row:span 2;
+        margin:0;
+        width:31px;
+        height:31px
+    }
+    .process-step h3 {
+        align-self:end;
+        margin:1px 0 5px
+    }
+    .process-step p {
+        max-width:300px
+    }
+    .portfolio .section-head {
+        display:block
+    }
+    .portfolio .section-head>.btn {
+        margin-top:20px
+    }
+    .portfolio-grid {
+        grid-template-columns:1fr 1fr;
+        grid-template-rows:240px 180px 180px;
+        gap:8px
+    }
+    .work-1 {
+        grid-column:span 2;
+        grid-row:1
+    }
+    .work-2 {
+        grid-column:1;
+        grid-row:2 / span 2
+    }
+    .work-3 {
+        grid-column:2;
+        grid-row:2
+    }
+    .work-4 {
+        grid-column:2;
+        grid-row:3
+    }
+    .work-caption {
+        left:13px;
+        bottom:14px
+    }
+    .work-caption h3 {
+        font-size:16px
+    }
+    .work-3 .work-caption h3,.work-4 .work-caption h3 {
+        font-size:14px
+    }
+    .cta {
+        padding:57px 0
+    }
+    .cta-inner {
+        align-items:flex-start;
+        flex-direction:column
+    }
+    .cta h2 {
+        font-size:42px
+    }
+    .cta p {
+        font-size:13px
+    }
+    .instagram {
+        padding:52px 0
+    }
+    .instagram-inner {
+        align-items:flex-start;
+        flex-direction:column
+    }
+    .ig-links {
+        gap:16px
+    }
+    .footer-main {
+        grid-template-columns:1fr 1fr;
+        gap:28px 18px
+    }
+    .footer-main>div:first-child {
+        grid-column:span 2
+    }
+    .footer-bottom {
+        flex-direction:column
+    }
+    .mobile-bar {
+        display:flex;
+        position:fixed;
+        z-index:40;
+        bottom:0;
+        left:0;
+        right:0;
+        padding:9px 14px calc(9px + env(safe-area-inset-bottom));
+        background:#07172bf2;
+        backdrop-filter:blur(12px);
+        border-top:1px solid #ffffff25
+    }
+    .mobile-bar .btn {
+        width:100%;
+        min-height:47px
+    }
+    body {
+        padding-bottom:66px
+    }
+}
+@media(prefers-reduced-motion:reduce) {
+    html {
+        scroll-behavior:auto
+    }
+    *,*:before,*:after {
+        animation-duration:.01ms!important;
+        animation-iteration-count:1!important;
+        scroll-behavior:auto!important;
+        transition-duration:.01ms!important
+    }
+    .reveal,.reveal-left,.reveal-right,.reveal-scale {
+        opacity:1;
+        transform:none
+    }
+    .process-step {
+        opacity:1;
+        transform:none
+    }
+}
 /* Tablet compacta: preserva leitura e evita compressão entre tablet e celular. */
-@media(max-width:800px){.nav .btn{display:none}.nav-links{gap:clamp(12px,2.4vw,22px)}.process-track{margin-top:42px}.track-line,.track-progress{left:15px;top:0;width:1px;height:calc(100% - 8px)}.track-progress{height:0;transition:height 1.4s ease}.process-track.is-visible .track-progress{height:calc(100% - 8px);width:1px}.steps{grid-template-columns:1fr;gap:21px}.process-step{display:grid;grid-template-columns:32px minmax(0,1fr);column-gap:14px;padding:0;opacity:0;transform:translateY(10px)}.process-track.is-visible .process-step{opacity:1;transform:none}.step-dot{grid-row:span 2;margin:0;width:31px;height:31px}.process-step h3{align-self:end;margin:1px 0 5px}.process-step p{max-width:400px}}
-@media(max-width:650px){.process-track{margin-top:36px}.steps{gap:18px}.process-step p{max-width:300px}.footer-col a{overflow-wrap:anywhere;line-height:1.5;min-height:28px}.ig-link{overflow-wrap:anywhere;min-height:36px;display:flex;align-items:center}.hero-logo{margin-bottom:19px}.hero h1{max-width:100%;font-size:clamp(42px,11.8vw,60px);line-height:1;letter-spacing:-.06em}.hero-copy{max-width:42ch}.hero-actions .btn{min-height:48px}.reveal-left{transform:translateX(-12px)}.reveal-right{transform:translateX(12px)}.reveal{transform:translateY(14px)}}/* Mantém os elementos no lugar depois da animação de entrada, inclusive no mobile. */
-.revealed{transform:none}
-@media(prefers-reduced-motion:reduce){.reveal,.reveal-left,.reveal-right,.reveal-scale,.revealed,.process-step{opacity:1;transform:none!important;animation:none!important}}/* Ajustes visuais pontuais: mais respiro e contraste sem alterar o layout responsivo. */
-.hero:after{display:none}
-.story{background:var(--gba-paper);color:var(--gba-text)}
-.story:before,.story-detail{display:none}
-.story-image{inset:0 28px 0 0;background:#dbe3e9 url('assets/images/gba-producao.jpg') center/cover no-repeat;filter:none}
-.story-image:after{background:linear-gradient(0deg,#07172b55,transparent 38%)}
-.story-index{bottom:22px;left:22px}
-.story-copy .eyebrow{color:var(--gba-blue)}
-.story-copy h2{color:var(--gba-navy)}
-.story-copy>p{color:#627183}
-.story-stat strong{color:var(--gba-navy)}
-.story-stat span{color:#64748b}
-.services{background:#e8edf1;color:var(--gba-text)}
-.services .section-head h2{color:var(--gba-navy)}
-.services .section-head p{color:#627183}
-.services .eyebrow{color:var(--gba-blue)}
-.service-grid{border-color:#cbd5df}
-.service-card{background:#fff;color:var(--gba-navy);border-color:#cbd5df;padding-top:26px}
-.service-card:hover{background:#fff}
-.service-card:before{z-index:2}
-.service-top{height:136px;margin:-26px -27px 17px;padding:18px 27px;background-color:#dce5ec;background-position:center;background-size:cover;color:white;position:relative}
-.service-top:before{content:'';position:absolute;inset:0;background:#07172b35}
-.service-symbol,.card-arrow{position:relative;z-index:1}
-.service-symbol{width:42px;height:42px;display:grid;place-items:center;background:#07172b99;color:white}
-.service-card:nth-child(1) .service-top{background-image:url('assets/images/tapete-personalizado.jpg')}
-.service-card:nth-child(2) .service-top{background-image:url('assets/images/wind-banner.jpg')}
-.service-card:nth-child(3) .service-top{background-image:url('assets/images/envelopamento.jpg')}
-.service-card:nth-child(4) .service-top{background-image:url('assets/images/impressao-3d.jpg')}
-.service-card:nth-child(5) .service-top{background-image:url('assets/images/chaveiros.jpg')}
-.service-card:nth-child(6) .service-top{background-image:url('assets/images/fachada.jpg')}
-.service-card h3{margin:0 0 9px;color:var(--gba-navy)}
-.service-card p{color:#627183}
-.process{background:#f2f5f7;color:var(--gba-text)}
-.process .section-head h2{color:var(--gba-navy)}
-.process .section-head p{color:#627183}
-.process .eyebrow{color:var(--gba-blue)}
-.track-line{background:#bdc9d5}
-.track-progress{background:var(--gba-blue)}
-.step-dot{background:#f2f5f7;border-color:#91a7bc;color:var(--gba-blue)}
-.process-track.is-visible .step-dot{background:var(--gba-blue);color:white}
-.process-step h3{color:var(--gba-navy)}
-.process-step p{color:#64748b}
-@media(max-width:900px){.service-card{padding-top:23px}.service-top{margin:-23px -23px 15px;padding:18px 23px}}
-@media(max-width:650px){.story-image{inset:0 20px 0 0}.service-card{padding-top:18px}.service-top{margin:-18px -15px 14px;padding:17px 15px;height:118px}}</style>
-</head>
-<body>
-<!-- REVISAR ANTES DE PUBLICAR: adicionar/substituir os arquivos de mídia em assets/images (logo-gba.png, gba-hero-poster.jpg, gba-producao.jpg, tapete-personalizado.jpg, wind-banner.jpg, envelopamento.jpg, impressao-3d.jpg, chaveiros.jpg, fachada.jpg) e assets/video/gba-hero.mp4. Sem logo, o monograma tipográfico temporário aparece. Confirmar WhatsApp (83) 98839-7962, os perfis @gbatapecaria_pb e @tapetes_personalizadosgba, endereço/área atendida e as legendas do portfólio. Fotos e exemplos atuais são demonstrativos. -->
-<div class="topline"><div class="wrap"><span>PERSONALIZAÇÃO E PRODUÇÃO PRÓPRIA · JOÃO PESSOA — PB</span><div class="right"><a href="https://instagram.com/gbatapecaria_pb" target="_blank" rel="noopener">INSTAGRAM</a><a href="https://wa.me/5583988397962" target="_blank" rel="noopener">WHATSAPP</a></div></div></div>
-<header><div class="wrap nav"><a href="#inicio" class="brand" aria-label="GBA Tapeçaria, início"><img src="assets/images/logo-gba.png" alt="" onerror="this.hidden=true"><span class="brand-monogram">GBA</span><span class="brand-word">GBA<small>TAPEÇARIA</small></span></a><button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">☰</button><nav class="nav-links" aria-label="Navegação principal"><a href="#gba">A GBA</a><a href="#servicos">Serviços</a><a href="#processo">Processo</a><a href="#trabalhos">Trabalhos</a><a href="#instagram">Instagram</a></nav><a class="btn btn-blue" href="https://wa.me/5583988397962?text=Ol%C3%A1%2C%20quero%20pedir%20um%20or%C3%A7amento%20com%20a%20GBA." target="_blank" rel="noopener">Pedir orçamento <span class="arrow">↗</span></a></div></header>
-<main>
-<section class="hero" id="inicio"><video class="hero-video" autoplay muted loop playsinline preload="metadata" poster="assets/images/gba-hro-poster.jpg"><source src="assets/video/gba-hero.mp4" type="video/mp4"></video><div class="wrap hero-inner"><div class="hero-content"><img class="hero-logo" src="assets/images/logo-gba.png" alt="GBA Tapeçaria" onerror="this.hidden=true"><span class="eyebrow hero-kicker">GBA TAPEÇARIA · FEITO SOB MEDIDA</span><h1>Feito para<br>ser <span>reconhecido.</span></h1><p class="hero-copy">Transformamos ideias, marcas e identidade em peças personalizadas feitas para chamar atenção.</p><div class="hero-actions"><a class="btn btn-blue" href="https://wa.me/5583988397962?text=Ol%C3%A1%2C%20quero%20pedir%20um%20or%C3%A7amento%20com%20a%20GBA." target="_blank" rel="noopener">Pedir orçamento <span class="arrow">↗</span></a><a class="btn btn-ghost" href="#trabalhos">Ver trabalhos <span class="arrow">↓</span></a></div></div></div><a class="scroll-cue" href="#gba"><i></i> Role para descobrir</a><span class="hero-side">IDEIA · PRODUÇÃO · IDENTIDADE</span></section>
-<section class="section story" id="gba"><div class="wrap story-grid"><div class="story-visual reveal-left"><div class="story-image">
-</div><div class="story-detail"></div><span class="story-index">01 — FEITO PELA GBA</span></div><div class="story-copy reveal-right"><span class="eyebrow">Mais que um produto</span><h2>Da ideia à produção. Tudo ganha identidade.</h2><p>A GBA Tapeçaria trabalha com personalização e produção para transformar referências em peças próprias, com presença e cuidado em cada etapa. Você traz a ideia; a gente constrói junto o caminho para ela ganhar forma.</p><div class="story-rule"></div><div class="story-stats"><div class="story-stat"><strong>01:01</strong><span>IDEIA ÚNICA</span></div><div class="story-stat"><strong>GBA</strong><span>PRODUÇÃO PRÓPRIA</span></div></div></div></div></section>
-<section class="section services" id="servicos"><div class="wrap"><div class="section-head reveal"><span class="eyebrow">O que fazemos</span><h2>Personalização que dá forma às ideias.</h2><p>Conheça os serviços da GBA. Conte o que está planejando e vamos conversar sobre as possibilidades.</p></div><div class="service-grid"><article class="service-card reveal"><div class="service-top"><span class="service-symbol">✳</span><span class="card-arrow">↗</span></div><h3>Tapetes personalizados</h3><p>Uma peça criada com sua marca, desenho ou identidade.</p></article><article class="service-card reveal"><div class="service-top"><span class="service-symbol">▤</span><span class="card-arrow">↗</span></div><h3>Wind banner</h3><p>Comunicação visual para eventos e pontos de venda.</p></article><article class="service-card reveal"><div class="service-top"><span class="service-symbol">◉</span><span class="card-arrow">↗</span></div><h3>Envelopamento</h3><p>Personalização de superfícies para renovar e destacar.</p></article><article class="service-card reveal"><div class="service-top"><span class="service-symbol">▧</span><span class="card-arrow">↗</span></div><h3>Impressões 3D</h3><p>Projetos e peças que saem da tela para o mundo real.</p></article><article class="service-card reveal"><div class="service-top"><span class="service-symbol">⌘</span><span class="card-arrow">↗</span></div><h3>Chaveiros personalizados</h3><p>Pequenas peças com a sua marca, arte ou mensagem.</p></article><article class="service-card reveal"><div class="service-top"><span class="service-symbol">⌂</span><span class="card-arrow">↗</span></div><h3>Fachadas</h3><p>Uma apresentação marcante para o seu espaço comercial.</p></article></div></div></section>
-<section class="section process" id="processo"><div class="wrap"><div class="section-head reveal"><span class="eyebrow">Do material à peça</span><h2>Um processo feito com intenção.</h2><p>Cada projeto percorre seu próprio caminho até ficar pronto para encontrar o mundo.</p></div><div class="process-track"><div class="track-line"></div><div class="track-progress"></div><div class="steps"><article class="process-step"><span class="step-dot">01</span><h3>IDEIA</h3><p>Tudo começa com o que você imagina.</p></article><article class="process-step"><span class="step-dot">02</span><h3>PERSONALIZAÇÃO</h3><p>Definimos arte, identidade e detalhes.</p></article><article class="process-step"><span class="step-dot">03</span><h3>PRODUÇÃO</h3><p>A ideia começa a ganhar forma.</p></article><article class="process-step"><span class="step-dot">04</span><h3>ACABAMENTO</h3><p>Cuidado para fechar cada detalhe.</p></article><article class="process-step"><span class="step-dot">05</span><h3>PRONTO</h3><p>Uma peça única, pronta para você.</p></article></div></div></div></section>
-<section class="section portfolio" id="trabalhos"><div class="wrap"><div class="section-head reveal"><div><span class="eyebrow">Trabalhos GBA</span><h2>Serviços já prestados.<br>Feitos para deixar marca.</h2><p>Uma seleção demonstrativa de projetos. As imagens podem ser substituídas pelas fotos reais da produção.</p></div><a class="btn btn-dark" href="https://wa.me/5583988397962?text=Ol%C3%A1%2C%20quero%20conhecer%20mais%20trabalhos%20da%20GBA." target="_blank" rel="noopener">Encomendar uma peça <span class="arrow">↗</span></a></div><div class="portfolio-grid"><article class="work work-1 reveal-scale"><div class="work-bg work-bg-1">
-    <img src="img/WhatsApp Image 2026-10-06 at 09.35.28.jpeg" alt="">
-</div><div class="work-caption"><small>01 / Personalização</small><h3>Uma identidade que ocupa espaço</h3></div></article><article class="work work-2 reveal-scale"><div class="work-bg work-bg-2">
-    <img src="img/WhatsApp Image 2026-10-06 at 09.35.39.jpeg" alt="">
-</div><div class="work-caption"><small>02 / Comunicação</small><h3>Presença para sua marca</h3></div></article><article class="work work-3 reveal-scale"><div class="work-bg work-bg-3">
-    <img src="img/WhatsApp Image 2026-10-06 at 09.35.02.jpeg" alt="">
-</div><div class="work-caption"><small>03 / Impressão 3D</small><h3>Ideias em outra dimensão</h3></div></article><article class="work work-4 reveal-scale"><div class="work-bg work-bg-4">
-    <img src="img/WhatsApp Image 2026-10-06 at 09.35.16.jpeg" alt="">
-</div><div class="work-caption"><small>04 / Fachadas</small><h3>Feito para ser visto</h3></div></article></div></div></section>
-<section class="cta"><div class="wrap cta-inner reveal"><div><h2>Vamos tirar sua ideia do papel?</h2><p>Conte o que você imaginou. A conversa começa no WhatsApp.</p></div><a class="btn" href="https://wa.me/5583988397962?text=Ol%C3%A1%2C%20quero%20tirar%20uma%20ideia%20do%20papel%20com%20a%20GBA." target="_blank" rel="noopener">Fale com a GBA <span class="arrow">↗</span></a></div></section>
-<section class="instagram" id="instagram"><div class="wrap instagram-inner reveal"><div><span class="eyebrow">A GBA também está por lá</span><h2>Ideias, novidades e trabalhos.</h2><p>Acompanhe de perto o que estamos produzindo.</p></div><div class="ig-links"><a class="ig-link" href="https://instagram.com/gbatapecaria_pb" target="_blank" rel="noopener">◎ &nbsp; @gbatapecaria_pb ↗</a><a class="ig-link" href="https://instagram.com/tapetes_personalizadosgba" target="_blank" rel="noopener">◎ &nbsp; @tapetes_personalizadosgba ↗</a></div></div></section>
-</main>
-<footer><div class="wrap"><div class="footer-main"><div><a href="#inicio" class="brand footer-brand"><img src="assets/images/logo-gba.png" alt="" onerror="this.hidden=true"><span class="brand-monogram">GBA</span><span class="brand-word">GBA<small>TAPEÇARIA</small></span></a><p class="footer-description">Personalização e produção própria. Ideias feitas para ganhar forma, identidade e presença.</p></div><div class="footer-col"><h3>Serviços</h3><a href="#servicos">Tapetes personalizados</a><a href="#servicos">Wind banner</a><a href="#servicos">Envelopamento</a><a href="#servicos">Impressões 3D</a></div><div class="footer-col"><h3>Explore</h3><a href="#gba">Sobre a GBA</a><a href="#processo">Nosso processo</a><a href="#trabalhos">Trabalhos</a></div><div class="footer-col"><h3>Contato</h3><a href="https://wa.me/5583988397962" target="_blank" rel="noopener">WhatsApp · (83) 98839-7962</a><a href="https://instagram.com/gbatapecaria_pb" target="_blank" rel="noopener">Instagram · @gbatapecaria_pb</a><a href="https://instagram.com/tapetes_personalizadosgba" target="_blank" rel="noopener">Tapetes · @tapetes_personalizadosgba</a></div></div><div class="footer-bottom"><span>© <span id="year"></span> GBA Tapeçaria. Todos os direitos reservados.</span><span>João Pessoa · Paraíba</span></div></div></footer>
-<div class="mobile-bar"><a class="btn btn-blue" href="https://wa.me/5583988397962?text=Ol%C3%A1%2C%20quero%20pedir%20um%20or%C3%A7amento%20com%20a%20GBA." target="_blank" rel="noopener">Pedir orçamento pelo WhatsApp <span class="arrow">↗</span></a></div>
-<script>
-const menuButton=document.querySelector('.menu-toggle');const navLinks=document.querySelector('.nav-links');menuButton.addEventListener('click',()=>{const open=navLinks.classList.toggle('open');menuButton.setAttribute('aria-expanded',String(open));menuButton.setAttribute('aria-label',open?'Fechar menu':'Abrir menu');menuButton.textContent=open?'×':'☰'});navLinks.querySelectorAll('a').forEach(link=>link.addEventListener('click',()=>{navLinks.classList.remove('open');menuButton.setAttribute('aria-expanded','false');menuButton.setAttribute('aria-label','Abrir menu');menuButton.textContent='☰'}));document.getElementById('year').textContent=new Date().getFullYear();
-const hero=document.querySelector('.hero');const heroVideo=document.querySelector('.hero-video');const showVideo=()=>hero.classList.add('video-loaded');heroVideo.addEventListener('playing',showVideo,{once:true});heroVideo.addEventListener('canplay',showVideo,{once:true});heroVideo.addEventListener('error',()=>hero.classList.remove('video-loaded'));if(heroVideo.readyState>=3)showVideo();
-const reducedMotion=window.matchMedia('(prefers-reduced-motion: reduce)').matches;const revealElements=document.querySelectorAll('.reveal,.reveal-left,.reveal-right,.reveal-scale');const processTrack=document.querySelector('.process-track');if('IntersectionObserver'in window&&!reducedMotion){const observer=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('revealed');if(entry.target===processTrack)processTrack.classList.add('is-visible');observer.unobserve(entry.target)}}),{threshold:.14});revealElements.forEach(element=>observer.observe(element));observer.observe(processTrack)}else{revealElements.forEach(element=>element.classList.add('revealed'));processTrack.classList.add('is-visible')}
-</script>
-</body>
+@media(max-width:800px) {
+    .nav .btn {
+        display:none
+    }
+    .nav-links {
+        gap:clamp(12px,2.4vw,22px)
+    }
+    .process-track {
+        margin-top:42px
+    }
+    .track-line,.track-progress {
+        left:15px;
+        top:0;
+        width:1px;
+        height:calc(100% - 8px)
+    }
+    .track-progress {
+        height:0;
+        transition:height 1.4s ease
+    }
+    .process-track.is-visible .track-progress {
+        height:calc(100% - 8px);
+        width:1px
+    }
+    .steps {
+        grid-template-columns:1fr;
+        gap:21px
+    }
+    .process-step {
+        display:grid;
+        grid-template-columns:32px minmax(0,1fr);
+        column-gap:14px;
+        padding:0;
+        opacity:0;
+        transform:translateY(10px)
+    }
+    .process-track.is-visible .process-step {
+        opacity:1;
+        transform:none
+    }
+    .step-dot {
+        grid-row:span 2;
+        margin:0;
+        width:31px;
+        height:31px
+    }
+    .process-step h3 {
+        align-self:end;
+        margin:1px 0 5px
+    }
+    .process-step p {
+        max-width:400px
+    }
+}
+@media(max-width:650px) {
+    .process-track {
+        margin-top:36px
+    }
+    .steps {
+        gap:18px
+    }
+    .process-step p {
+        max-width:300px
+    }
+    .footer-col a {
+        overflow-wrap:anywhere;
+        line-height:1.5;
+        min-height:28px
+    }
+    .ig-link {
+        overflow-wrap:anywhere;
+        min-height:36px;
+        display:flex;
+        align-items:center
+    }
+    .hero-logo {
+        margin-bottom:19px
+    }
+    .hero h1 {
+        max-width:100%;
+        font-size:clamp(42px,11.8vw,60px);
+        line-height:1;
+        letter-spacing:-.06em
+    }
+    .hero-copy {
+        max-width:42ch
+    }
+    .hero-actions .btn {
+        min-height:48px
+    }
+    .reveal-left {
+        transform:translateX(-12px)
+    }
+    .reveal-right {
+        transform:translateX(12px)
+    }
+    .reveal {
+        transform:translateY(14px)
+    }
+}
+/* Mantém os elementos no lugar depois da animação de entrada, inclusive no mobile. */
+.revealed {
+    transform:none
+}
+@media(prefers-reduced-motion:reduce) {
+    .reveal,.reveal-left,.reveal-right,.reveal-scale,.revealed,.process-step {
+        opacity:1;
+        transform:none!important;
+        animation:none!important
+    }
+}
+/* Ajustes visuais pontuais: mais respiro e contraste sem alterar o layout responsivo. */
+.hero:after {
+    display:none
+}
+.story {
+    background:var(--gba-paper);
+    color:var(--gba-text)
+}
+.story:before,.story-detail {
+    display:none
+}
+.story-image {
+    inset:0 28px 0 0;
+    background:#dbe3e9 url('assets/images/gba-producao.jpg') center/cover no-repeat;
+    filter:none
+}
+.story-image:after {
+    background:linear-gradient(0deg,#07172b55,transparent 38%)
+}
+.story-index {
+    bottom:22px;
+    left:22px
+}
+.story-copy .eyebrow {
+    color:var(--gba-blue)
+}
+.story-copy h2 {
+    color:var(--gba-navy)
+}
+.story-copy>p {
+    color:#627183
+}
+.story-stat strong {
+    color:var(--gba-navy)
+}
+.story-stat span {
+    color:#64748b
+}
+.services {
+    background:#e8edf1;
+    color:var(--gba-text)
+}
+.services .section-head h2 {
+    color:var(--gba-navy)
+}
+.services .section-head p {
+    color:#627183
+}
+.services .eyebrow {
+    color:var(--gba-blue)
+}
+.service-grid {
+    border-color:#cbd5df
+}
+.service-card {
+    background:#fff;
+    color:var(--gba-navy);
+    border-color:#cbd5df;
+    padding-top:26px
+}
+.service-card:hover {
+    background:#fff
+}
+.service-card:before {
+    z-index:2
+}
+.service-top {
+    height:136px;
+    margin:-26px -27px 17px;
+    padding:18px 27px;
+    background-color:#dce5ec;
+    background-position:center;
+    background-size:cover;
+    color:white;
+    position:relative
+}
+.service-top:before {
+    content:'';
+    position:absolute;
+    inset:0;
+    background:#07172b35
+}
+.service-symbol,.card-arrow {
+    position:relative;
+    z-index:1
+}
+.service-symbol {
+    width:42px;
+    height:42px;
+    display:grid;
+    place-items:center;
+    background:#07172b99;
+    color:white
+}
+.service-card:nth-child(1) .service-top {
+    background-image:url('assets/images/tapete-personalizado.jpg')
+}
+.service-card:nth-child(2) .service-top {
+    background-image:url('assets/images/wind-banner.jpg')
+}
+.service-card:nth-child(3) .service-top {
+    background-image:url('assets/images/envelopamento.jpg')
+}
+.service-card:nth-child(4) .service-top {
+    background-image:url('assets/images/impressao-3d.jpg')
+}
+.service-card:nth-child(5) .service-top {
+    background-image:url('assets/images/chaveiros.jpg')
+}
+.service-card:nth-child(6) .service-top {
+    background-image:url('assets/images/fachada.jpg')
+}
+.service-card h3 {
+    margin:0 0 9px;
+    color:var(--gba-navy)
+}
+.service-card p {
+    color:#627183
+}
+.process {
+    background:#f2f5f7;
+    color:var(--gba-text)
+}
+.process .section-head h2 {
+    color:var(--gba-navy)
+}
+.process .section-head p {
+    color:#627183
+}
+.process .eyebrow {
+    color:var(--gba-blue)
+}
+.track-line {
+    background:#bdc9d5
+}
+.track-progress {
+    background:var(--gba-blue)
+}
+.step-dot {
+    background:#f2f5f7;
+    border-color:#91a7bc;
+    color:var(--gba-blue)
+}
+.process-track.is-visible .step-dot {
+    background:var(--gba-blue);
+    color:white
+}
+.process-step h3 {
+    color:var(--gba-navy)
+}
+.process-step p {
+    color:#64748b
+}
+@media(max-width:900px) {
+    .service-card {
+        padding-top:23px
+    }
+    .service-top {
+        margin:-23px -23px 15px;
+        padding:18px 23px
+    }
+}
+@media(max-width:650px) {
+    .story-image {
+        inset:0 20px 0 0
+    }
+    .service-card {
+        padding-top:18px
+    }
+    .service-top {
+        margin:-18px -15px 14px;
+        padding:17px 15px;
+        height:118px
+    }
+}
+.story-image {
+    overflow: hidden;
+}
+.story-image img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 55%;
+}
+
+        .work-bg {
+            overflow: hidden;
+        }
+
+        .work-bg img {
+            position: absolute;
+            inset: 0;
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+        }
+    </style>
+<link rel="shortcut icon" href="img/logoGBA.png" type="image/x-icon">
+    </head>
+    <body>
+        <!-- REVISAR ANTES DE PUBLICAR: adicionar/substituir os arquivos de mídia em assets/images (logo-gba.png, gba-hero-poster.jpg, gba-producao.jpg, tapete-personalizado.jpg, wind-banner.jpg, envelopamento.jpg, impressao-3d.jpg, chaveiros.jpg, fachada.jpg) e assets/video/gba-hero.mp4. Sem logo, o monograma tipográfico temporário aparece. Confirmar WhatsApp (83) 98839-7962, os perfis @gbatapecaria_pb e @tapetes_personalizadosgba, endereço/área atendida e as legendas do portfólio. Fotos e exemplos atuais são demonstrativos. -->
+        <div class="topline">
+            <div class="wrap">
+                <span>PERSONALIZAÇÃO E PRODUÇÃO PRÓPRIA · JOÃO PESSOA — PB</span>
+                <div class="right">
+                    <a href="https://instagram.com/gbatapecaria_pb" target="_blank" rel="noopener">INSTAGRAM</a><a href="https://wa.me/5583988397962" target="_blank" rel="noopener">WHATSAPP</a>
+                </div>
+            </div>
+        </div>
+        <header>
+            <div class="wrap nav">
+                <a href="#inicio" class="brand" aria-label="GBA Tapeçaria, início"><img src="img/logoGBA.png" alt="" onerror="this.hidden=true"><span class="brand-monogram">GBA</span><span class="brand-word">GBA<small>TAPEÇARIA</small></span></a>
+                <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">
+                    ☰
+                </button>
+                <nav class="nav-links" aria-label="Navegação principal">
+                    <a href="#gba">A GBA</a><a href="#servicos">Serviços</a><a href="#processo">Processo</a><a href="#trabalhos">Trabalhos</a><a href="#instagram">Instagram</a>
+                </nav>
+                <a class="btn btn-blue" href="https://wa.me/5583988397962?text=Ol%C3%A1%2C%20quero%20pedir%20um%20or%C3%A7amento%20com%20a%20GBA." target="_blank" rel="noopener">Pedir orçamento <span class="arrow">↗</span></a>
+            </div>
+        </header>
+        <main>
+            <section class="hero" id="inicio">
+                <video class="hero-video" autoplay muted loop playsinline preload="metadata" poster="img/Stapete.jpeg">
+                    <source src="img/video_loop.mp4" type="video/mp4">
+                </video>
+                <div class="wrap hero-inner">
+                    <div class="hero-content">
+                        <img class="hero-logo" src="img/logoGBA.png" alt="GBA Tapeçaria" onerror="this.hidden=true"><span class="eyebrow hero-kicker">GBA TAPEÇARIA · FEITO SOB MEDIDA</span>
+                        <h1>
+                            Feito para<br>ser <span>reconhecido.</span>
+                        </h1>
+                        <p class="hero-copy">
+                            Transformamos ideias, marcas e identidade em peças personalizadas feitas para chamar atenção.
+                        </p>
+                        <div class="hero-actions">
+                            <a class="btn btn-blue" href="https://wa.me/5583988397962?text=Ol%C3%A1%2C%20quero%20pedir%20um%20or%C3%A7amento%20com%20a%20GBA." target="_blank" rel="noopener">Pedir orçamento <span class="arrow">↗</span></a><a class="btn btn-ghost" href="#trabalhos">Ver trabalhos <span class="arrow">↓</span></a>
+                        </div>
+                    </div>
+                </div>
+                <a class="scroll-cue" href="#gba"><i></i> Role para descobrir</a><span class="hero-side">IDEIA · PRODUÇÃO · IDENTIDADE</span>
+            </section>
+            <section class="section story" id="gba">
+                <div class="wrap story-grid">
+                    <div class="story-visual reveal-left">
+                        <div class="story-image">
+                            <img src="img/Stapete.jpeg" alt="Tapete personalizado produzido pela GBA">
+                        </div>
+                        <div class="story-detail">
+                        </div>
+                        <span class="story-index">01 — FEITO PELA GBA</span>
+                    </div>
+                    <div class="story-copy reveal-right">
+                        <span class="eyebrow">Mais que um produto</span>
+                        <h2>
+                            Da ideia à produção. Tudo ganha identidade.
+                        </h2>
+                        <p>
+                            A GBA Tapeçaria trabalha com personalização e produção para transformar referências em peças próprias, com presença e cuidado em cada etapa. Você traz a ideia; a gente constrói junto o caminho para ela ganhar forma.
+                        </p>
+                        <div class="story-rule">
+                        </div>
+                        <div class="story-stats">
+                            <div class="story-stat">
+                                <strong>01:01</strong><span>IDEIA ÚNICA</span>
+                            </div>
+                            <div class="story-stat">
+                                <strong>GBA</strong><span>PRODUÇÃO PRÓPRIA</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section services" id="servicos">
+                <div class="wrap">
+                    <div class="section-head reveal">
+                        <span class="eyebrow">O que fazemos</span>
+                        <h2>
+                            Personalização que dá forma às ideias.
+                        </h2>
+                        <p>
+                            Conheça os serviços da GBA. Conte o que está planejando e vamos conversar sobre as possibilidades.
+                        </p>
+                    </div>
+                    <div class="service-grid">
+                        <article class="service-card reveal">
+                            <div class="service-top">
+                                <span class="service-symbol">✳</span><span class="card-arrow">↗</span>
+                            </div>
+                            <h3>
+                                Tapetes personalizados
+                            </h3>
+                            <p>
+                                Uma peça criada com sua marca, desenho ou identidade.
+                            </p>
+                        </article>
+                        <article class="service-card reveal">
+                            <div class="service-top">
+                                <span class="service-symbol">▤</span><span class="card-arrow">↗</span>
+                            </div>
+                            <h3>
+                                Wind banner
+                            </h3>
+                            <p>
+                                Comunicação visual para eventos e pontos de venda.
+                            </p>
+                        </article>
+                        <article class="service-card reveal">
+                            <div class="service-top">
+                                <span class="service-symbol">◉</span><span class="card-arrow">↗</span>
+                            </div>
+                            <h3>
+                                Envelopamento
+                            </h3>
+                            <p>
+                                Personalização de superfícies para renovar e destacar.
+                            </p>
+                        </article>
+                        <article class="service-card reveal">
+                            <div class="service-top">
+                                <span class="service-symbol">▧</span><span class="card-arrow">↗</span>
+                            </div>
+                            <h3>
+                                Impressões 3D
+                            </h3>
+                            <p>
+                                Projetos e peças que saem da tela para o mundo real.
+                            </p>
+                        </article>
+                        <article class="service-card reveal">
+                            <div class="service-top">
+                                <span class="service-symbol">⌘</span><span class="card-arrow">↗</span>
+                            </div>
+                            <h3>
+                                Chaveiros personalizados
+                            </h3>
+                            <p>
+                                Pequenas peças com a sua marca, arte ou mensagem.
+                            </p>
+                        </article>
+                        <article class="service-card reveal">
+                            <div class="service-top">
+                                <span class="service-symbol">⌂</span><span class="card-arrow">↗</span>
+                            </div>
+                            <h3>
+                                Fachadas
+                            </h3>
+                            <p>
+                                Uma apresentação marcante para o seu espaço comercial.
+                            </p>
+                        </article>
+                    </div>
+                </div>
+            </section>
+            <section class="section process" id="processo">
+                <div class="wrap">
+                    <div class="section-head reveal">
+                        <span class="eyebrow">Do material à peça</span>
+                        <h2>
+                            Um processo feito com intenção.
+                        </h2>
+                        <p>
+                            Cada projeto percorre seu próprio caminho até ficar pronto para encontrar o mundo.
+                        </p>
+                    </div>
+                    <div class="process-track">
+                        <div class="track-line">
+                        </div>
+                        <div class="track-progress">
+                        </div>
+                        <div class="steps">
+                            <article class="process-step">
+                                <span class="step-dot">01</span>
+                                <h3>
+                                    IDEIA
+                                </h3>
+                                <p>
+                                    Tudo começa com o que você imagina.
+                                </p>
+                            </article>
+                            <article class="process-step">
+                                <span class="step-dot">02</span>
+                                <h3>
+                                    PERSONALIZAÇÃO
+                                </h3>
+                                <p>
+                                    Definimos arte, identidade e detalhes.
+                                </p>
+                            </article>
+                            <article class="process-step">
+                                <span class="step-dot">03</span>
+                                <h3>
+                                    PRODUÇÃO
+                                </h3>
+                                <p>
+                                    A ideia começa a ganhar forma.
+                                </p>
+                            </article>
+                            <article class="process-step">
+                                <span class="step-dot">04</span>
+                                <h3>
+                                    ACABAMENTO
+                                </h3>
+                                <p>
+                                    Cuidado para fechar cada detalhe.
+                                </p>
+                            </article>
+                            <article class="process-step">
+                                <span class="step-dot">05</span>
+                                <h3>
+                                    PRONTO
+                                </h3>
+                                <p>
+                                    Uma peça única, pronta para você.
+                                </p>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section portfolio" id="trabalhos">
+                <div class="wrap">
+                    <div class="section-head reveal">
+                        <div>
+                            <span class="eyebrow">Trabalhos GBA</span>
+                            <h2>
+                                Serviços já prestados.<br>Feitos para deixar marca.
+                            </h2>
+                            <p>
+                                Uma seleção demonstrativa de projetos. As imagens podem ser substituídas pelas fotos reais da produção.
+                            </p>
+                        </div>
+                        <a class="btn btn-dark" href="https://wa.me/5583988397962?text=Ol%C3%A1%2C%20quero%20conhecer%20mais%20trabalhos%20da%20GBA." target="_blank" rel="noopener">Encomendar uma peça <span class="arrow">↗</span></a>
+                    </div>
+                    <div class="portfolio-grid">
+                        <article class="work work-1 reveal-scale">
+                            <div class="work-bg work-bg-1">
+                                <img src="img/clinica.jpeg" alt="">
+                            </div>
+                            <div class="work-caption">
+                                <small>01 / Personalização</small>
+                                <h3>
+                                    Uma identidade que ocupa espaço
+                                </h3>
+                            </div>
+                        </article>
+                        <article class="work work-2 reveal-scale">
+                            <div class="work-bg work-bg-2">
+                                <img src="img/roupa.jpeg" alt="">
+                            </div>
+                            <div class="work-caption">
+                                <small>02 / Comunicação</small>
+                                <h3>
+                                    Presença para sua marca
+                                </h3>
+                            </div>
+                        </article>
+                        <article class="work work-3 reveal-scale">
+                            <div class="work-bg work-bg-3">
+                                <img src="img/farmacia.jpeg" alt="">
+                            </div>
+                            <div class="work-caption">
+                                <small>03 / Impressão 3D</small>
+                                <h3>
+                                    Ideias em outra dimensão
+                                </h3>
+                            </div>
+                        </article>
+                        <article class="work work-4 reveal-scale">
+                            <div class="work-bg work-bg-4">
+                                <img src="img/otica.jpeg" alt="">
+                            </div>
+                            <div class="work-caption">
+                                <small>04 / Fachadas</small>
+                                <h3>
+                                    Feito para ser visto
+                                </h3>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+            <section class="cta">
+                <div class="wrap cta-inner reveal">
+                    <div>
+                        <h2>
+                            Vamos tirar sua ideia do papel?
+                        </h2>
+                        <p>
+                            Conte o que você imaginou. A conversa começa no WhatsApp.
+                        </p>
+                    </div>
+                    <a class="btn" href="https://wa.me/5583988397962?text=Ol%C3%A1%2C%20quero%20tirar%20uma%20ideia%20do%20papel%20com%20a%20GBA." target="_blank" rel="noopener">Fale com a GBA <span class="arrow">↗</span></a>
+                </div>
+            </section>
+            <section class="instagram" id="instagram">
+                <div class="wrap instagram-inner reveal">
+                    <div>
+                        <span class="eyebrow">A GBA também está por lá</span>
+                        <h2>
+                            Ideias, novidades e trabalhos.
+                        </h2>
+                        <p>
+                            Acompanhe de perto o que estamos produzindo.
+                        </p>
+                    </div>
+                    <div class="ig-links">
+                        <a class="ig-link" href="https://instagram.com/gbatapecaria_pb" target="_blank" rel="noopener">◎ &nbsp; @gbatapecaria_pb ↗</a><a class="ig-link" href="https://instagram.com/tapetes_personalizadosgba" target="_blank" rel="noopener">◎ &nbsp; @tapetes_personalizadosgba ↗</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="wrap">
+                <div class="footer-main">
+                    <div>
+                        <a href="#inicio" class="brand footer-brand"><img src="img/logoGBA.png" alt="" onerror="this.hidden=true"><span class="brand-monogram">GBA</span><span class="brand-word">GBA<small>TAPEÇARIA</small></span></a>
+                        <p class="footer-description">
+                            Personalização e produção própria. Ideias feitas para ganhar forma, identidade e presença.
+                        </p>
+                    </div>
+                    <div class="footer-col">
+                        <h3>
+                            Serviços
+                        </h3>
+                        <a href="#servicos">Tapetes personalizados</a><a href="#servicos">Wind banner</a><a href="#servicos">Envelopamento</a><a href="#servicos">Impressões 3D</a>
+                    </div>
+                    <div class="footer-col">
+                        <h3>
+                            Explore
+                        </h3>
+                        <a href="#gba">Sobre a GBA</a><a href="#processo">Nosso processo</a><a href="#trabalhos">Trabalhos</a>
+                    </div>
+                    <div class="footer-col">
+                        <h3>
+                            Contato
+                        </h3>
+                        <a href="https://wa.me/5583988397962" target="_blank" rel="noopener">WhatsApp · (83) 98839-7962</a><a href="https://instagram.com/gbatapecaria_pb" target="_blank" rel="noopener">Instagram · @gbatapecaria_pb</a><a href="https://instagram.com/tapetes_personalizadosgba" target="_blank" rel="noopener">Tapetes · @tapetes_personalizadosgba</a>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <span>© <span id="year"></span> GBA Tapeçaria. Todos os direitos reservados.</span><span>João Pessoa · Paraíba</span>
+                </div>
+            </div>
+        </footer>
+        <div class="mobile-bar">
+            <a class="btn btn-blue" href="https://wa.me/5583988397962?text=Ol%C3%A1%2C%20quero%20pedir%20um%20or%C3%A7amento%20com%20a%20GBA." target="_blank" rel="noopener">Pedir orçamento pelo WhatsApp <span class="arrow">↗</span></a>
+        </div>
+        <script>
+            const menuButton=document.querySelector('.menu-toggle');const navLinks=document.querySelector('.nav-links');menuButton.addEventListener('click',()=>{const open=navLinks.classList.toggle('open');menuButton.setAttribute('aria-expanded',String(open));menuButton.setAttribute('aria-label',open?'Fechar menu':'Abrir menu');menuButton.textContent=open?'×':'☰'});navLinks.querySelectorAll('a').forEach(link=>link.addEventListener('click',()=>{navLinks.classList.remove('open');menuButton.setAttribute('aria-expanded','false');menuButton.setAttribute('aria-label','Abrir menu');menuButton.textContent='☰'}));document.getElementById('year').textContent=new Date().getFullYear();
+            const hero=document.querySelector('.hero');const heroVideo=document.querySelector('.hero-video');const showVideo=()=>hero.classList.add('video-loaded');heroVideo.addEventListener('playing',showVideo,{once:true});heroVideo.addEventListener('canplay',showVideo,{once:true});heroVideo.addEventListener('error',()=>hero.classList.remove('video-loaded'));if(heroVideo.readyState>=3)showVideo();
+            const reducedMotion=window.matchMedia('(prefers-reduced-motion: reduce)').matches;const revealElements=document.querySelectorAll('.reveal,.reveal-left,.reveal-right,.reveal-scale');const processTrack=document.querySelector('.process-track');if('IntersectionObserver'in window&&!reducedMotion){const observer=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('revealed');if(entry.target===processTrack)processTrack.classList.add('is-visible');observer.unobserve(entry.target)}}),{threshold:.14});revealElements.forEach(element=>observer.observe(element));observer.observe(processTrack)}else{revealElements.forEach(element=>element.classList.add('revealed'));processTrack.classList.add('is-visible')}
+        </script>
+    </body>
 </html>
-
-
-
-
-
